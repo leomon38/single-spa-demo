@@ -1,0 +1,19 @@
+{
+  "name": "ms-cart",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "license": "MIT",
+  "main": "dist/server.js",
+  "dependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hashmap": "^2.4.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.5"
+  }
+}

@@ -1,0 +1,20 @@
+.navbar {
+    display: inline-flex;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+ul li {
+	display: inline;
+}
+
+.cart-link {
+	color: yellow;
+	justify-content: right;
+}

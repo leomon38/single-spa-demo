@@ -1,0 +1,22 @@
+.selectedProduct {    
+    position:relative;
+    display: flex;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    justify-content: space-evenly
+}
+
+.selectedProduct__content {
+    width: 50vw;
+    border: 15px solid darkblue;
+    padding: 50px;
+    margin: 20px;
+}
+
+.selectedProduct_thumbnail {
+    display: flex;
+    justify-content: right;
+    right: 50px;
+    width: 200px;
+    height: 300px;
+}

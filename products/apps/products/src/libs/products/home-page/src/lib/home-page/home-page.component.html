@@ -1,0 +1,18 @@
+<ul>
+  <li *ngFor="let product of products | async">
+    <a [routerLink]="['/product', product.id]">
+      <figure>
+        <img [src]="assetURL + product.image" />
+      </figure>
+      <h2>{{ product.name }}</h2>
+      <p>
+        <nx-example-product-price
+          [value]="product.price"
+        ></nx-example-product-price>
+      </p>
+    </a>
+    <p>
+      <button (click)="add(product)">Add To Cart</button>
+    </p>
+  </li>
+</ul>
