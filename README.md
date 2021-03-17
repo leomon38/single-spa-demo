@@ -28,7 +28,3 @@ start all services
 in your browser, go to http://localhost:4888/.
 The basic single-spa demo 
 
-"Cart" page hasn't been finished since original code was highly coupled in nx workspace.
-
-root-app is another way to write the code.  I found this is interested way to do it.
-you can do home, nx-example and root-app to get the same result..
